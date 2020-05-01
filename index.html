@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <title>Break Out Game</title>
+</head>
+<body>
+    <h1>Breakout !</h1>
+
+    <button id="rules-btn" class="btn rules-btn">Show Rules</button>
+    
+    <div id="rules" class="rules">
+        <h2>Instructions</h2><hr>
+        <ul>
+            <li>- You have to break all the bricks by the ball on the paddle.</li><br>
+            <li>- Use your left and right arrow keys to move the paddle.</li><br>
+            <li>- In total you have three lives, one time ball miss the paddle costs one life</li><br>
+            <li>- Enjoy! </li>
+        </ul>
+        <button id="close-btn" class="btn">Close</button>
+    </div>
+
+    <canvas id="canvas" width = "800" height="500"></canvas>
+    
+    <div class = "lives" id = "lives"></div>
+    
+    <div class="end-game" id="end-game"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
